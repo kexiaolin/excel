@@ -50,6 +50,7 @@ public class HelloWord {
         SXSSFWorkbook wb =  PoiUtil.initExcel(totalCount, titles);
 
         int sheetCount = wb.getNumberOfSheets();
+        int  row = 0;
         for (int k = 0; k < sheetCount; k++) {
 
             SXSSFSheet eachSheet = wb.getSheetAt(k);
@@ -61,8 +62,9 @@ public class HelloWord {
 
                 for (int i = startRowCount; i <= endRowCount; i++) {
                     SXSSFRow eachDataRow = eachSheet.createRow(i);
-                    if (i -startRowCount < employees.size()) {
-                        Employee employee = employees.get(i - startRowCount);
+
+                    if ( row ++ < employees.size()) {
+                        Employee employee = employees.get(i);
 
                         eachDataRow.createCell(0).setCellValue(employee.getId().toString());
                         eachDataRow.createCell(1).setCellValue(employee.getAccount());

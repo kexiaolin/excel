@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c742760-f2df-47d8-9001-05f3432448c1" name="Default Changelist" comment="" />
+    <list default="true" id="5c742760-f2df-47d8-9001-05f3432448c1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/h3c/rs/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/h3c/rs/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/h3c/rs/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/h3c/rs/HelloWord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dc.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/dc.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/dc/WEB-INF/classes/com/h3c/rs/HelloWord.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/dc/WEB-INF/classes/com/h3c/rs/HelloWord.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/h3c/rs/HelloWord.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="169">
+              <caret line="65" column="53" lean-forward="true" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
@@ -112,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/h3c/poi/ExcelConstant.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="276">
               <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
             </state>
           </provider>
@@ -195,16 +202,19 @@
       <find>_randomAccessWindowSize</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/HelloWord.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/h3c/poi/ExcelConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/h3c/poi/WriteExcelDataDelegated.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/h3c/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/h3c/poi/PoiUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/h3c/poi/ExcelConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/h3c/rs/HelloWord.java" />
       </list>
     </option>
@@ -241,6 +251,7 @@
     <option name="width" value="1260" />
     <option name="height" value="638" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -320,7 +331,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588689797897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588691759466" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -497,12 +508,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588252243854</updated>
-      <workItem from="1588252248568" duration="20304000" />
+      <workItem from="1588252248568" duration="21583000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20304000" />
+    <option name="totallyTimeSpent" value="21583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
@@ -526,7 +537,7 @@
       <window_info anchor="bottom" id="Messages" weight="0.22476447" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4333782" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43261456" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -696,15 +707,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/h3c/poi/ExcelConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="276">
           <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/h3c/rs/HelloWord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="47" column="9" lean-forward="true" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        <state relative-caret-position="169">
+          <caret line="65" column="53" lean-forward="true" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
