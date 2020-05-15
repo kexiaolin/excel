@@ -10,8 +10,9 @@
             var content = xhr.response;
             var fileName = "aa.xlsx"; // 保存的文件名
             var elink = document.createElement('a');
-            elink.download = filename;
+            elink.download = fileName;
             elink.style.display = 'none';
+
 
             var blob = new Blob([content]);
             elink.href = URL.createObjectURL(blob);
