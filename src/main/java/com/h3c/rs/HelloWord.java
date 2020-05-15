@@ -41,7 +41,7 @@ public class HelloWord {
         String filePath ="C:\\Users\\Administrator\\Desktop\\222.txt";
 
         Integer totalCount = 2000012;
-       final List<Employee> employees = new ArrayList<>(2000000);
+       final List<Employee> employees = new ArrayList<>(2000012);
         for (int i =0 ;i < totalCount; i ++ ) {
             Employee employee = new Employee(UUID.randomUUID(),"account:"+i,"passoword:"+i,"2","nickname:"+i, "job:"+i,"mobile:"+i,"email:"+i,UUID.randomUUID(),String.valueOf(System.currentTimeMillis()),UUID.randomUUID());
             employees.add(employee);
@@ -80,10 +80,12 @@ public class HelloWord {
             }
 
         }
-        OutputStream outputStream = Files.newOutputStream(Paths.get(new File(filePath).toURI()));
+        File file = new File(filePath);
+        OutputStream outputStream = Files.newOutputStream(Paths.get(file.toURI()));
         wb.write(outputStream);
         String fileName = "222.xlsx";
-        Response response = Response.ok(new File(filePath)).header("Content-Disposition","attachment;filename = \""+fileName+ "\";filename*=utf-8''"+fileName)
+       //file.delete();
+        Response response = Response.ok(file).header("Content-Disposition","attachment;filename = \""+fileName+ "\";filename*=utf-8''"+fileName)
                 .type("application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                 .build();
         return  response;
